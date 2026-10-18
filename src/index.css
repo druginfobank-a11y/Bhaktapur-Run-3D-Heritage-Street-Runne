@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-arcade: 'Chakra Petch', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0D0B10;
+    color: #F5F2EB;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-arcade {
+  font-family: var(--font-arcade);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Leaflet dark heritage styling */
+.leaflet-container {
+  background: #120F16 !important;
+  font-family: var(--font-sans) !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(13, 11, 16, 0.75) !important;
+  color: #9CA3AF !important;
+  font-size: 9px !important;
+  padding: 1px 5px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #F59E0B !important;
+}

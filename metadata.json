@@ -1,0 +1,6 @@
+{
+  "name": "Bhaktapur Run: 3D Heritage Street Runner",
+  "description": "A Temple Run-inspired 3D endless and landmark-route action game set in the historic brick streets and pagoda squares of Bhaktapur, Nepal, powered by Three.js PBR graphics and live OpenStreetMap / MapTiler street route extraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
